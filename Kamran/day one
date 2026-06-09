@@ -1,0 +1,14 @@
+# q1 for 100 day challenge
+print("kamran")
+#q2 
+#create a variable called age and store your age.
+age = 20
+print(age)
+#q3
+num1 = 10
+num2 = 20
+print(num1 , num2)
+heigth = "180cm"
+weigth = "60kg"
+print(heigth , weigth)
+
