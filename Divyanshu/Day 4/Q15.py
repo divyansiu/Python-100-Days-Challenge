@@ -19,3 +19,4 @@ compound_intrest = amount_after_2nd_year - P
 
 print("Compund Intrest Of the given Data is",compound_intrest)
 
+    
