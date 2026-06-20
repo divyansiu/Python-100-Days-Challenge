@@ -4,16 +4,26 @@ Question 46: Fibonacci Series
 #Solution :
 
 term = int(input("Enter number of Terms you want : "))
-temp_1 = 0
-temp_2 = 1
+first = 0
+second = 1
+next = 0
 if term == 0 :
-    print(1)
+    print("Please enter a positive number")
+elif term == 1 :
+    print("0")
+elif term == 2 :
+    print("0")
+    print("1")
 else :
-    print(temp_2)
-    while term > 0 :
-        temp_2 += temp_1
-        print(temp_2)
-        temp_1 = temp_2
+    print("0")
+    print("1")
+    while term-2 > 0 :
+        next = first + second
+        print(next)
+        first = second
+        second = next
         term -= 1
+
+        
 
     
